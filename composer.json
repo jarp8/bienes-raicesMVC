@@ -1,0 +1,22 @@
+{
+    "name": "pc/bienes-raices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jesus Ramírez",
+            "email": "j.pasarin@outlook.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "2.7",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
